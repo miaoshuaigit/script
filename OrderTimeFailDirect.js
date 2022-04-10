@@ -48,7 +48,7 @@ function getDirectData(msg) {
         "success" : false,
         "code" : -3001,
         "tips" : {
-            "duration" : 300,
+            "duration" : 100,
             "limitMsg" : msg
         },
         "msg" : msg,
