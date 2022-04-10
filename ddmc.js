@@ -76,7 +76,7 @@ var data = {
                     "invalid_prompt" : null,
                     "date_str_timestamp" : nowTime,
                     "day" : "today",
-                    "date_str" : "今天(来自Max破解)",
+                    "date_str" : "今天(破解版)",
                     "times" : [
                         {
                             "disableType" : 0,
