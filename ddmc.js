@@ -262,8 +262,8 @@ if (res.success && res.data[0].time[0].times[0].arrival_time_msg == "自动尝�
     $done({body: JSON.stringify(defaultData)});
 } else {
     // 剔除小余当前时间的时间段
-    //let times = data.data[0].time[0].times.filter(item => item.end_timestamp > nowTime);
-    //data.data[0].time[0].times = times;
+    let times = data.data[0].time[0].times.filter(item => item.end_timestamp > nowTime);
+    data.data[0].time[0].times = times;
     $done({body: JSON.stringify(data)});
 }
 
